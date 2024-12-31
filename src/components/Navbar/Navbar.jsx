@@ -14,8 +14,8 @@ const Navbar = () => {
         <div className={styles.menu}>
           <img className={styles.menuBtn}
            src={menuOpen ? 
-                "assets/nav/closeIcon.png" :
-                "assets/nav/menuIcon.png"}
+                "/assets/nav/closeIcon.png" :
+                "/assets/nav/menuIcon.png"}
            alt="menuIcon" 
            onClick={()=> setMenuOpen(!menuOpen)}/>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
             </ul>
         </div>
 
-        <img src="assets/hero/heroImage.png" alt="" />
+        <img src="/assets/hero/heroImage.png" alt="" />
         
     </nav>
 

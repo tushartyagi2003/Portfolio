@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 // import {getImageUrl} from '../../utils'
 
-import about from "../../../assets/about/aboutImage.png"
-// change are above and 49 
+import closeIcon from '../../../assets/nav/closeIcon.png';
+import menuIcon from '../../../assets/nav/menuIcon.png';
+ 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,8 +21,8 @@ const Navbar = () => {
             className={styles.menuBtn}
             src={
               menuOpen
-                ? "/assets/nav/closeIcon.png"
-                : "/assets/nav/menuIcon.png"
+                ? closeIcon
+                : menuIcon
             }
             alt="menuIcon"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -46,7 +47,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <img src={about} alt="" />
+       
 
       </nav>
     </>

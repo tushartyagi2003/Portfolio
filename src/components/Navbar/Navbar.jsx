@@ -28,6 +28,8 @@ const Navbar = () => {
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+
+        <img src="assets/hero/heroImage.png" alt="" />
         
     </nav>
 

@@ -35,7 +35,7 @@ const Project = () => {
             </div>
           
 
-          <div>
+          
             <div className={styles.card}>
               <img
                 className={styles.img}
@@ -59,13 +59,13 @@ const Project = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
 
           <div>
             <div className={styles.card}>
               <img
                 className={styles.img}
-                src="/assets/hero/download.jpeg"
+                src="../assets/hero/download.jpeg"
                 alt=""
               />
               <div className={styles.text}>

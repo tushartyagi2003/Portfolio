@@ -1,5 +1,11 @@
 @import "./vars.css" ;
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
 
 .App {
   background-color: var(--color-bg);
